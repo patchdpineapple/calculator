@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>CALCULATOR</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet"> 
+
 </head>
 
 <body>
@@ -17,39 +20,45 @@
                     <div class="results" id="currentinput">0</div>
                 </div>
                 <div id="buttonscontainer">
-                    <div class="input" id="buttonClear">C</div>
-                    <div class="input" id="buttonPower">x<sup style="font-size: 12px;">y</sup></div>
-                    <div class="input" id="buttonBackspace"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
-                        <path d="M12 10l4 4m0 -4l-4 4" />
-                      </svg></div>
-                    <div class="input" id="buttonAdd">+</div>
+                    <div class="operators" id="buttonClear">C</div>
+                    <div class="operators" id="buttonPower" style="padding-top: 12px;">x<sup style="font-size: 12px;">y</sup></div>
+                    <div class="operators" id="buttonBackspace" style="padding-top: 17px;"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+                            <path d="M12 10l4 4m0 -4l-4 4" />
+                        </svg></div>
+                    <div class="operators" id="buttonAdd">+</div>
 
                     <div class="input" id="button1">1</div>
                     <div class="input" id="button2">2</div>
                     <div class="input" id="button3">3</div>
-                    <div class="input" id="buttonSubtract">-</div>
+                    <div class="operators" id="buttonSubtract">-</div>
 
                     <div class="input" id="button4">4</div>
                     <div class="input" id="button5">5</div>
                     <div class="input" id="button6">6</div>
-                    <div class="input" id="buttonMultiply">x</div>
+                    <div class="operators" id="buttonMultiply" style="padding-top: 20px;">*</div>
 
                     <div class="input" id="button7">7</div>
                     <div class="input" id="button8">8</div>
-                    <div class="input" id="button9">9</div> 
-                    <div class="input" id="buttonDivide"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-divide" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <circle fill="currentColor" cx="12" cy="6" r="1" />
-                        <circle fill="currentColor" cx="12" cy="18" r="1" />
-                        <line x1="5" y1="12" x2="19" y2="12" />
-                      </svg></div>
+                    <div class="input" id="button9">9</div>
+                    <div class="operators" id="buttonDivide"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-divide" width="20" height="20" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle fill="currentColor" cx="12" cy="6" r="1" />
+                            <circle fill="currentColor" cx="12" cy="18" r="1" />
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                        </svg></div>
 
                     <div class="input" id="buttonSign">+/-</div>
                     <div class="input" id="button0">0</div>
                     <div class="input" id="buttonDecimal">.</div>
-                    <div class="input" id="buttonEquals">=</div>
+                    <div class="operators" id="buttonEquals">=</div>
 
                 </div>
 
