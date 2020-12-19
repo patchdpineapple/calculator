@@ -6,7 +6,7 @@
 
 
 html {
-    font-family: Langar, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     
 }
 
@@ -113,6 +113,10 @@ main {
 .clicking {
     transition: all .05s ease;
     transform: scale(0.9);
+}
+
+.key {
+    border-radius: 3px;
 }
 
 .input {
