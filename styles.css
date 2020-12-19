@@ -110,6 +110,10 @@ main {
     
 }
 
+.clicking {
+    transition: all .05s ease;
+    transform: scale(0.9);
+}
 
 .input {
     background-color: #a3f7bf;
@@ -121,6 +125,12 @@ main {
     
 }
 
+.input:hover {
+ 
+    background-color: #ffffff;
+}
+
+
 .operators {
     background-color: #29a19c;
     width: 100%;
@@ -128,8 +138,15 @@ main {
     text-align: center;
     padding-top: 15px;
     font-size: 20px;
-    
 }
+
+.operators:hover {
+ 
+    background-color: #63fc96;
+}
+
+
+
 
 footer {
     background-color: #222831;

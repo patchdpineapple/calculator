@@ -81,6 +81,21 @@ buttonEquals.addEventListener('click', () => {
 
 });
 
+
+const keys = Array.from(document.querySelectorAll('.key'));
+keys.forEach(key => key.addEventListener('click', clickButton));
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+
+function clickButton(e) {
+    e.target.classList.add('clicking');
+}
+
+function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('clicking');
+  }
+
 function chooseOperator(lastoper, currentoper) {
 
     if (lastoper == ' = ') {
@@ -155,9 +170,9 @@ function changeSign(){
         tempInput.unshift('-');
 
     currentinput.textContent = tempInput.join('');
-    tempInput = [];
+    tempInput = [];   
     
-
+    
 
     
 }
